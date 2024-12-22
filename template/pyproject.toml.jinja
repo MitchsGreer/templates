@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "{{ module_name }}"
+version = "1.0.0"
+description = "{{ module_description }}"
+readme = "README.md"
+authors = [{ name = "Mitch Greer", email = "mitchsgreer@gmail.com" }]
+maintainers = [{ name = "Mitch Greer", email = "mitchsgreer@gmail.com" }]
+dependencies = []
+
+[project.urls]
+"Homepage" = "https://github.com/MitchsGreer/{{ repository_name }}"
+"Source" = "https://github.com/MitchsGreer/{{ repository_name }}.git"
+
+[project.scripts]
+swiss = "swiss:main"

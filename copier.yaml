@@ -1,0 +1,14 @@
+# =============================================================================
+# Copier questions for building a new project.
+# =============================================================================
+module_name:
+  type: str
+  help: What is your Python module name?
+
+module_description:
+  type: str
+  help: What is a description of your python module?
+
+repository_name:
+  type: str
+  help: What is the name of the repository this python module is stored in?
